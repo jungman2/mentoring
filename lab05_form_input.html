@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab05_form_input</title>
+</head>
+<body>
+    <h1>1. form & input </h1>
+    <h2>1-1. input : text</h2>
+    <form action="">
+        텍스트를 입력하세요 : <br>
+        <input type="text">
+    </form>
+
+    <hr>
+    <h2>1-2. input: password</h2>
+    <form action="">
+        ID : <br>
+        <input type="text"><br>
+        PW : <br> <input type="password"><br>
+    </form>
+
+    <hr>
+    <h2>1-3. input : radio</h2>
+    <form action="">
+        <input type="radio" name="radio">라디오 1 <br>
+        <input type="radio" name="radio" value="라디오 1">라디오 2 <br>
+        <!-- value값이 서버로 넘어감. name은 모두 radio로 통일해야하고 value값을 조정해야함 -->
+        <input type="radio" name="radio">라디오 3 <br>
+        <input type="radio" name="radio">라디오 4 <br>
+    </form>
+
+    <hr>
+    <h2>1-4. input : checkbox</h2>
+    <form action="">
+        <input type="checkbox" name="check" value=""> 체크박스 1<br>
+        <input type="checkbox" name="check" value=""> 체크박스 2<br>
+        <input type="checkbox" name="check" value=""> 체크박스 3<br>
+        <input type="checkbox" name="check" value="" disabled> 체크박스 4<br>
+
+    </form>
+
+    <hr>
+    <h2>1-5. select</h2>
+        <select name="" id="">
+            <option value="">선택 1</option>
+            <option value="">선택 2</option>
+            <option value="" selected>선택 3</option>
+            <option value="">선택 4</option>
+        </select>
+
+    <br><br><br><br><br><hr>
+    <h2>1-6. button</h2>
+        <button type="button" onclick="">
+            버튼을 눌러주세요       
+        </button>
+
+    <hr> 
+    <h2>1-7. input : submit</h2>    
+        <form action="https://www.google.com/search">
+            텍스트를 입력하세요 : <br>
+            <input type="text" name="query"> <br>
+            <input type="submit" value="전송">
+        </form>
+
+    <br><hr><br>
+
+    <!-- 멀티미디어 -->
+    <h1>2. 멀티미디어</h1>
+    <h2>2-1. 비디오</h2>
+
+        <video width="480px" height="240px" controls>
+            <source src="자원 경로" type="확장자에 대한 명시">
+        </video>
+
+    <hr>
+    <h2>2-2. 오디오</h2>
+        <audio controls>
+            <source src="자원 경로" type="확장자에 대한 명시( audio/mp3 )">
+        </audio>
+
+    <hr>
+    <h2>2-3. 유튜브</h2>
+        <!-- <iframe src="https://www.youtube.com/watch?v=dy6Hj0Kk-CA" frameborder="0"> -->
+            <source >
+        </iframe>
+
+        <object width="480px" height="240px" data="//www.youtube.com/embed/dy6Hj0Kk-CA?autoplay=1" type="text/html"></object>
+</body>
+</html>

@@ -1,0 +1,20 @@
+position
+relative . 부모 요소를 기준으로 이동
+absolute. 부모 요소의 position이 relative일때까지 상위 부모 요소로 찾아 올라감
+fixed. 부모 요소의 영향을 받지 않음 ex/ 네비바 or 툴바
+
+
+float
+div는 영역을 차지하다 보니 자연스럽게 섞이지가 않음
+=> float : 띄워주겠다 
+div는 가로까지 모두 영역 차지하지만 float는 띄워서 해당 공간만 차지하게끔
+문제1. right로 했을 때 순서 
+clear.
+both.
+
+문제2. overflow. 부모 영역에서 벗어남
+ visible .기본 설정 -눈에 보임
+hidden. 
+scroll. 가로 세로 스크롤바 다 생김
+auto. scroll바가 생기는데 필요한 곳에만
+

@@ -1,0 +1,23 @@
+Linux(CentOS7) Set Up
+
+1. 가상머신(Virtual Machine)
+	- Oracle VirtualBox 6.1.2 platform packages
+		- Download VirtualBox 6.1 클릭
+		- 페이지 상단 Windows hosts 클릭하여 다운로드
+		- https://www.virtualbox.org/
+		
+2. 운영체제(Operating System)
+	- CentOS7
+		- Get CentOS7 Now 클릭
+		- More download choices 클릭
+		- CentOS7 mirrors 클릭
+		- 최상단 naver 서버 클릭
+		- CentOS-7-x86_64-DVD-1908.iso 클릭하여 다운로드
+		- https://www.centos.org/
+		
+3. 원격 접속 프로그램
+	- MobaXterm
+		- Get MOBAXTERM NOW! 클릭
+		- Home Edition 하단의 Free 버전 Download now 클릭
+		- MobaXterm Home Edition v12.4(Installer edition) 클릭하여 다운로드
+		- https://mobaxterm.mobatek.net/
